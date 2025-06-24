@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <label>고객명 :</label><input type="text" value=""><br>
+        <br>
+        <label>전화번호 :</label><input placeholder=""><br>
+        <br>
+        <label>E-mail :</label><input type="text" value=""><br>
+        <br>
+        <label>피자선택 :
+        <select name="size">
+                <option name="size" value="">Small</option>
+                <option name="size" value="">Medium</option>
+                <option name="size" value="">Large</option>
+                <option value="etc" selected>피자를 선택하세요</option>
+        </label>
+        </select>
+    <form>
+        <fieldset>
+            <legend>피자 사이즈</legend>
+            <label><input type="radio"></label>Small</label><br>
+            <br>
+            <label><input type="radio"></label> Medium</label><br>
+            <br>
+            <label><input type="radio"></label> Large</label><br>
+            <br>
+        </fieldset>
+         <fieldset>
+            <legend>토핑 선택</legend>
+            <label><input type="checkbox">베이컨</label><br>
+            <br>
+            <label><input type="checkbox">치즈</label><br>
+            <br>
+            <label><input type="checkbox">양파</label><br>
+            <br>
+            <label><input type="checkbox">버섯</label><br>
+        </fieldset>
+    </form>
+    <label>희망배송시간</label>
+    <input type="time">    
+    <br><br><br>
+    <label>배송시 요청사항 :</label><textarea style="resize" cols="20" rows="5"></textarea><br>
+    <br>
+    <input type="button" value="주문하기"
+</body>
+</html>
