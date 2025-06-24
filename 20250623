@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <br>
+    <fieldset>
+            <legend>필수 입력 사항</legend>
+            <label><b>ID</b></label>
+            <input placeholder="아이디 10글자 이내">
+            <button>중복확인</button><br>
+            <label><b>비밀번호</b></label>
+            <input placeholder="영문,숫자,특수문자 포함 8자이상"><br>
+            <label><b>비밀번호 확인</b><input></label><br>
+            <label><b>Email</b><input></label>
+        <select name="nation">
+            <option>네이버</option>
+            <option>다음</option>
+            <option>구글</option>
+            <option value="etc" selected>직접입력</option>
+        </select>
+            
+        </fieldset>
+         <fieldset>
+            <legend>추가 정보</legend>
+        <label>프로필 사진 <input type="file" name="uploadfile" multiple></label><br>
+        <br>
+        <label>성별 : </label>
+        <input type="radio" value="M" name="gender" id="male"
+        <label for="male">남자 : </label>
+        <input type="radio" value="F" name="gender" id="female"
+        <label for="female">여자 : </label><br>
+        <br>
+        <label>생년월일 : </label>
+        <input type="date" name="date"><br>
+        <br>
+        <label>취미</label><br>
+        <input type="checkbox">
+        <label >야구</label>
+        <input type="checkbox">
+        <label >농구</label>
+        <input type="checkbox">
+        <label >축구</label><br>
+        <input type="checkbox">
+        <label >공부</label>
+        <input type="checkbox"">
+        <label >음악감상</label><br>
+        <input type="checkbox">
+        <label >기타<input></label><br>
+        <br>
+        <label>자기소개</label><br>
+        <textarea style="resize: none;" cols="70" rows="10"></textarea>
+        </fieldset>
+        <br>
+        <button>회원가입</button>
+        <button>다시입력</button>
+        <button>이전으로</button>
+
+    
+</body>
+</html>
