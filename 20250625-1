@@ -1,0 +1,68 @@
+<style>
+        .test1 {
+            background: blue;
+            width: 400px;
+            height: 350px;
+            
+         
+        }
+        .test2 {
+            background: red;
+            width: 80px;
+            height: 300px;
+            margin-top: -300px;
+        }
+        .test3 {
+            background: green;
+            width: 250px;
+            height: 300px;
+            margin-top: -300px;
+            margin-left: 80px;
+        }
+        .test4 {
+            background: papayawhip;
+            width: 80px;
+            height: 300px;
+            margin-top: -300px;
+            margin-left: 320px;
+        }
+        .test5 {
+            background: greenyellow;
+            width: 220px;
+            height: 90px;
+            margin-top: -280px;
+            margin-left: 90px;
+        }
+        .test6 {
+            background: pink;
+            width: 220px;
+            height: 90px;
+            margin-top: px;
+            margin-left: 90px;
+        }
+        .test7 {
+            background: aqua;
+            width: 220px;
+            height: 90px;
+            margin-top: px;
+            margin-left: 90px;
+        }
+        .test8 {
+            background: purple;
+            width: 400px;
+            margin-top: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="test test1">header</div>
+    <div class="test test2">nav</div>
+    <div class="test test3">section</div>
+    <div class="test test4">aside</div>
+    <div class="test test5">article</div>
+    <div class="test test6">article</div>
+    <div class="test test7">article</div>
+    <div class="test test8">footer</div>
+
+</body>
