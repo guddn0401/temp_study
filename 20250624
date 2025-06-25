@@ -1,0 +1,47 @@
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1번 */
+    #a {
+        background-color: #ffb9b9 ; width: 278px; height: 160px; top: 16px; left: 16px;
+
+    }    
+    /* 2번 */
+    #b {
+        background-color: #ffb9b9; width: 160px; height: 278px; top: 16px; left: 16px;
+    }
+    /* 3번 */
+    #c {
+        background-color: #ffb9b9; width: 160px; height: 160px; top: 16px; left: 16px; border-radius: 9999px;
+
+    }
+    /* 4번 */
+    #d {
+        background: #CA785C; width: 278px;
+        height: 160px;
+        top: 16px;
+        left: 16px;
+        border-radius: 8px;
+
+
+    }
+    /* 5번 */
+    #e {
+        background: #CA785C;
+        width: 160px;
+        height: 278px;
+        border-radius: 16px;
+        top: 16px;
+        left: 16px;
+    }
+    #e1 {
+        color: #138a79;
+    }
+    /* 6번 */
+    #f1 {
+        background-color: #ca785c; border-radius: 9999px;
+    }
+    #f2 {
+        font-weight: 700; font-size: 16px; text-align: center;
+    }
