@@ -1,2 +1,66 @@
 null <  눌 아니고 널.
+  console.log(`1 == 1 : ${1 == '1'}`);
+  console.log(`1 == true : ${1 == true}`);
+
+  
+  console.log(`1 === 1 : ${1 === '1'}`);
+  console.log(`1 === true : ${1 === true}`);
+
+  //숫자 0, 문자'0', 빈 문자열 '', false 비교
+  console.log(`0 == '0' : ${0 == '0'}`);
+  console.log(`0 == '' : ${0 == ''}`);
+  console.log(`0 == false : ${0 == false}`);
+
+  console.log(`0 === '0' : ${0 === '0'}`);
+  console.log(`0 === '' : ${0 === ''}`);
+  console.log(`0 === false : ${0 === false}`);
+
+  //null, undefiend 비교
+  console.log(`null == undefined : ${null == undefined}`);
+  console.log(`null === undefined : ${null === undefined}`);
+
+  //NaN은 자신과 일치하지 않는 유일한 값이다.
+  console.log(`NaN == NaN : ${NaN == NaN}`);
+  console.log(`NaN === NaN : ${NaN === NaN}`);
+  
+  //빌트인 함수 Number.isNaN()을 사용해서 확인해야 한다.
+  console.log(`Number.isNaN(NaN) : ${Number.isNaN(NaN)}`);
+
+  /*비교 연산자를 통해 */
+  console.log(`'hello' === 'hello' : ${'hello' === 'hello'}`);
+  console.log(`'hello' !== 'hello' : ${'hello' !== 'hello'}`);
+
+  console.log(`'apple' < 'banana' : ${'apple' < 'banana'}`)  
+  console.log(`'apple' > 'banana' : ${'apple' > 'banana'}`)  
+  console.log(`'cat' > 'zoo' : ${'cat' > 'zoo'}`)//대문자가 소문자보다 작다  
+-----------------------------------------------------------------------------------
+console.log('apple' ||'banana');
+console.log(false ||'banana');
+console.log('apple' || false);
+
+//AND의 경우 좌한, 우항 모두 확인해야 하므로
+//논리 연산의 결과를 결정한 두 번째 피연산자 banana를 그대로 반환한다.
+console.log('apple' && 'banana');
+console.log(false && 'banana');
+console.log('apple' && false);
+
+var num = 1;
+
+if(num % 2 ==0)
+    console.log('짝수입니다.');  // 밑에있는 코드보다 이 코드를 쓰는걸 추천한다(선생님왈)
+else
+    console.log('홀수입니다.')
+
+//단축평가를 사용하면 if문을 대체할 수 있다.
+num % 2 ==0 && console.log('짝수입니다.')
+num % 2 ==0 || console.log('홀수입니다.')
+----------------------------------------------------------------------------
+/*01_옵셔널 체이닝 연산자 */
+var obj = null;
+var val = obj?.value;
+console.log(val)
+
+/*02_null 병합 연산자 */
+var test = null ?? '기본 값';
+console.log(test);
 
