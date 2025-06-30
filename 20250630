@@ -1,0 +1,32 @@
+var x = 'global x';
+var y = 'global y';  //글로벌x글로벌y라는 이름을 만들어 놓음 (전역함수)
+                    //누구나 볼수있고 누구나 쓸수 있음
+
+function outer() {  //전역에 있는 함수라고 보면됨 예를들어 얘는 상자임.
+                    //바깥에 있는 함수이지만 일반 함수라고 보면됌
+    var z = "outer local z"; //지역변수, outer함수 안에서만 사용가능 그외 불가.
+
+    console.log(x);
+    console.log(y);
+    console.log(z);
+
+
+    function inner() {
+        var x = "inner local x";
+        var z = "inner local z";
+
+        console.log(x);
+        console.log(y);
+        console.log(z);
+    }
+
+    inner();
+}
+outer('x');
+
+console.log(x);
+// console.log(z);
+
+
+전역함수와(대한민국) 지역함수(부산,경기,강원)는  지역함수가 전역함수의 값을 끌어온다.
+또한 지역함수로 가져와서 값을 조정가능하다.
