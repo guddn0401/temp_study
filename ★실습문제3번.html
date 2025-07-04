@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습3번</title>
+    <style>
+        .test1 {
+            background: blue;
+            width: 400px;
+            height: 50px;
+        }
+        #test2 {
+            background: red;
+            width: 300px;
+            height: 30px;
+            margin-left: 50px;
+            margin-top: -30px;
+        }
+        
+        .section {
+            background: green;
+            width: 320px;
+            .article1,.article2,.article3 {
+                margin-left: 60px;
+            }
+        }
+        .article1 {
+                background: greenyellow;
+                width: 200px;
+                height: 80px;
+                
+            }
+        .article2 {
+                background: pink;
+                width: 200px;
+                height: 80px;
+        }
+        .article3 {
+            background: aqua;
+            width: 200px;
+            height: 80px;
+        }
+        .aside {
+            background: red;
+            width: 80px;
+            height: 263px;
+            margin-left: 320px;
+            margin-top: -263px;
+            /* 축소 확대하면 빈틈이 보였다 안보였다함 ㅡㅡ
+            배경색상 바꿔보면 보임  */
+        }
+        .footer {
+            background: purple;
+            width: 400px;
+        }  
+
+</style>
+</head>
+<body>
+    <header class="test1" style="text-align: center;">header</header>
+    <nav id="test2" style="text-align: center;">nav</nav>
+    <section class="section" style="text-align: center;">section
+        <article class="tt article1" style="text-align: center;">article</article>
+        <article class="tt article2" style="text-align: center;">article</article>
+        <article class="tt article3" style="text-align: center;">article</article>
+    </section>
+    <aside class="aside" style="text-align: center;">aside</aside>
+    <footer class="footer" style="text-align: center;">footer</footer>
+
+    
+</body>
+</html>

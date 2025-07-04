@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>납품자 정보</legend>
+            <label>1. 납품자명 :</label><input type="text" value=""><br>
+            <br>
+            <label>2. email :</label><input placeholder="잘보고 입력하셈"><br>
+            <br>
+            <label>3. 홈페이지 :</label><input type="text" value="http://"><br>
+            <br>
+            <label>4. 지역 :</label>
+            <select name="nation">
+                <option value="">부산</option>
+                <option value="">서울</option>
+                <option value="">경기</option>
+                <option value="">강원</option>
+            </select>
+        </fieldset>
+         <fieldset>
+            <legend>납품 정보</legend>
+            <label><li> 상품명 : </label><input type="text" value=""></li><br>
+            <label><li> 납품수량 : </label><input placeholder="최소 100"></li><br>
+            <label><li> 납품등급 : </label><input type="range" name="point" min="0" max="100" value="50" setp="10"></li><br>
+            <li> 기타사항 :<textarea style="resize" cols="20" rows="5"></textarea> </li>
+        </fieldset>
+        <button>send message</button>
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="drink">
+        <li>커피</li>
+    </ul>
+
+    <script>
+        const $drink= document. getElementById('drink');
+
+        const $li = document.createElement('li');
+        console.log($li);
+    </script>
+    
+/////////////////////////////////////////////////////////////
+
+
+<u1 id="food">
+    <li>파스타</li>
+    <li>피자</li>
+</u1>
+<!-- Node prototype.removeChild 메서드를 활용하여 마지막 피자를 삭제해보세요. -->
+
+<script>
+    const $food = document.getElementById('food');
+
+    $food.removeChild($food.firstElementChild);
+
+    //first는 첫번째 것을 삭제
+    //last는 마지막에 있는 것을 삭제
+</script>
+
+
+//////////////////////////////////////////////////////////
+
+<!-- 다음 ul(hobby) 취미 태그에 축구, 농구, 수영을 추가하세요. -->
+
+	
+	<ul id="hobby">
+        <li>야구</li>
+    </ul>
+
+    <script>
+        const $hobby =document.getElementById('hobby');
+
+        const $li1 = document.createElement('li');
+        $li1.textContent = '배구';
+        $hobby.appendChild($li1);
+
+        //append로 값을 추가함.
+    </script>
+
+    /////////////////////////////////////////////////////
+
+    
+<!-- 아래의 코드를 참고하여 name, value 속성 존재 유무를 확인하고  -->
+<!-- 이미 존재하는 속성이 있다면 removeAttribute()를 활용하여 제거하십시오. -->
+
+
+
+	<label for="nickname">닉네임</label>
+    <input type="text" id="nickname" value="Student">
+
+    <script>
+        const $nickname = document.getElementById('nickname');
+        
+        console.log($nickname.hasAttribute('name'));
+        //name 어트리뷰트를 가지고 있는지 확인
+
+
+        // value 어트리뷰트를 가지고 있는지 확인
+        if($nickname.hasAttribute('value')) {
+            //value 어트리뷰트가 있으면 삭제
+            $nickname.removeAttribute('value');
+        }
+        console.log($nickname.hasAttribute('value'));
+
+
+    </script>
+
+
+
+
+</body>
+</html>
