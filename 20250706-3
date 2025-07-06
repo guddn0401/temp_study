@@ -1,0 +1,24 @@
+스터디 3번문제
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스터디3번문제</title>
+</head>
+<body>
+    <h1><b>버튼을 클릭하면, 첫번째 체크박스의 항목을 체크해 주세요</b></h1>
+
+    <label ><input type="checkbox" id="check1">Java</label><br>
+    <label ><input type="checkbox" id="check2">DataBase</label><br>
+    <label ><input type="checkbox" id="check3">Web</label><br>
+    <button id="btn123">클릭</button>
+
+    <script>
+        document.getElementById('btn123').addEventListener('click',function(){
+            document.getElementById('check1').checked =true;
+        })
+        
+    </script>
+</body>
+</html>
