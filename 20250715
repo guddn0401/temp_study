@@ -1,0 +1,23 @@
+package com.ohgiraffers.hwpage;
+
+public class mypage1 {
+
+    public static void main(String[] args) {
+
+//        int inum1 = 20;
+        int inum1;
+        inum1=20;
+        int inum2 = 30;
+
+
+
+        System.out.println(inum1 + inum2);
+        System.out.println(inum1 - inum2);
+        System.out.println(inum1 * inum2);
+        System.out.println(inum1 / inum2);
+        System.out.println(inum1 % inum2);
+
+
+
+    }
+}
