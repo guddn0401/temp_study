@@ -1,0 +1,20 @@
+package com.ohgiraffers.hwpage;
+
+public class page2 {
+
+    public static void main(String[] args) {
+
+        int num1 =80;
+        int num2 =50;
+
+        String result1 = (num1 > 60)? "합격입니다" : "아쉽지만 불합격입니다.";
+        String result2 = (num2 < 60)? "합격입니다" : "아쉽지만 불합격입니다.";
+
+        System.out.println(result1);
+        System.out.println(result2);
+
+
+
+
+    }
+}
