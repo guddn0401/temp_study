@@ -1,0 +1,38 @@
+System.out.println( " ==========ohgiraffers vending machine ========");
+        System.out.println("apple     banana     orange     melon     grape");
+        System.out.println( " ==============================================");
+        System.out.println("과일을 선택해주세요 :");
+
+        Scanner sc = new Scanner(System.in);
+        String selectedFruits = sc.nextLine();
+
+        int price = 0;
+
+        String order = "";
+        switch (selectedFruits) {
+            case "apple" :
+                order = "apple";
+                price = 1000;
+                break;
+
+            case "banana" :
+                order = "banana";
+                price = 1500;
+
+            case "orange" :
+                order = "orange";
+                price = 2000;
+                break;
+
+            case "melon" :
+                order = "melon";
+                price = 3000;
+                break;
+
+            case "grape" :
+                order = "grape";
+                price = 10000;
+        }
+
+        System.out.println(order + "를 선택하셨습니다.");
+        System.out.println(price + "원을 투입해주세요");
