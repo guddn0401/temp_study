@@ -1,0 +1,31 @@
+package com.ohgiraffers.mypage;
+
+
+public class Appliction {
+
+    public static void main(String[] args) {
+
+
+
+        Member member1 = new Member();//생성자
+
+        System.out.println(member1.getId());
+        System.out.println(member1.getPwd());
+        System.out.println(member1.getName());
+        System.out.println(member1.getAge());
+        System.out.println(member1.getGender());
+        System.out.println(member1.getPhone());
+        System.out.println(member1.getEmail());
+
+        Member member2 = new Member("guddn0401","123","김형우",35,'m',"01022220853","guddn0401@naver.com");
+
+        System.out.println("변경후 id : " +member2.getId());
+        System.out.println(member2.getPwd());
+        System.out.println(member2.getName());
+        System.out.println(member2.getAge());
+        System.out.println(member2.getGender());
+        System.out.println(member2.getPhone());
+        System.out.println(member2.getEmail());
+
+    }
+}
