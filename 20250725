@@ -1,0 +1,29 @@
+package com.ohgiraffers.mypage;
+
+public class Appliction {
+
+    public static void main(String[] args) {
+
+        System.out.println("====그룹일때====");
+        Group group = new Group();
+        group.dance();
+        group.sing();
+
+
+        System.out.println("====보이 그룹일때====");
+        BoyGroup boyGroup =new BoyGroup();
+        boyGroup.dance();
+        boyGroup.sing();
+        boyGroup.singng();
+
+
+        System.out.println("====걸그룹일때");
+        GirlGroup girlGroup =new GirlGroup();
+        girlGroup.dance();
+        girlGroup.sing();
+        girlGroup.danceng();
+
+        Group a1 =new BoyGroup();
+
+        Group girlGroup2 =new GirlGroup();
+        girlGroup2.dance();
